@@ -1,6 +1,8 @@
-<<<<<<< Updated upstream
 # Seasonal Agriculture Performance Analysis
 
+## Live Demo
+
+https://seasonal-agriculture-performance-analysis-gorzyx2z2epbqmxvudgt.streamlit.app/
 ## Project Overview
 
 This project analyzes agricultural data across different seasons to identify patterns, trends, relationships and variations in agricultural performance.
@@ -52,6 +54,7 @@ The dataset contains 4,000 agricultural records and 28 attributes related to:
 - VS Code
 - Git
 - GitHub
+- Streamlit
 
 ## Methodology
 
@@ -63,10 +66,11 @@ The dataset contains 4,000 agricultural records and 28 attributes related to:
 6. Environmental analysis
 7. Resource usage analysis
 8. Economic analysis
-9. Correlation analysis
-10. Statistical analysis using ANOVA
-11. Outlier analysis
-12. Findings and recommendations
+9. Crop and state analysis
+10. Correlation analysis
+11. Statistical analysis using ANOVA
+12. Outlier analysis
+13. Findings and recommendations
 
 ## Visualizations
 
@@ -83,114 +87,40 @@ The project includes visualizations such as:
 - Rainfall vs yield
 - Temperature vs yield
 - Disease and pest risk analysis
+- Seasonal distribution
+- Yield distribution by season
 
 ## Project Structure
 
+```text
 Seasonal-Agriculture-Performance-Analysis/
-
+│
 ├── data/
-
+│   └── seasonal_agriculture_performance_dataset.csv
+│
 ├── notebooks/
-
+│   └── seasonal_agriculture_analysis.ipynb
+│
 ├── visualizations/
-
+│   ├── correlation_heatmap.png
+│   ├── crop_season_yield_heatmap.png
+│   ├── disease_pest_risk_by_season.png
+│   ├── production_by_season.png
+│   ├── profit_by_season.png
+│   ├── rainfall_by_season.png
+│   ├── rainfall_vs_yield.png
+│   ├── revenue_by_season.png
+│   ├── season_distribution.png
+│   ├── soil_moisture_by_season.png
+│   ├── state_season_yield_heatmap.png
+│   ├── temperature_by_season.png
+│   ├── temperature_vs_yield.png
+│   ├── water_efficiency_by_season.png
+│   ├── water_usage_by_season.png
+│   ├── yield_by_season.png
+│   └── yield_distribution_season.png
+│
+├── app.py
 ├── README.md
-
 ├── requirements.txt
-
 └── .gitignore
-
-## Key Analytical Questions
-
-- How does agricultural performance vary across seasons?
-- Which seasons show differences in crop yield and production?
-- How do environmental conditions vary between seasons?
-- How does resource usage differ across seasons?
-- How does water efficiency vary across seasons?
-- What relationships exist between environmental conditions and yield?
-- How do revenue, cost and profit vary across seasons?
-- Are there significant differences in yield between seasons?
-- What unusual patterns or outliers can be observed?
-- What recommendations can be derived from the analysis?
-
-## Future Scope
-
-- Apply machine learning for crop yield prediction.
-- Integrate real-time weather and environmental data.
-- Develop crop-specific irrigation and fertilizer recommendations.
-- Predict disease and pest risks.
-- Integrate IoT sensors for field monitoring.
-- Develop an interactive web or mobile dashboard.
-- Analyze multi-year agricultural data for long-term seasonal trends.
-
-## GitHub Repository
-
-https://github.com/Janvi24-ux/Seasonal-Agriculture-Performance-Analysis
-=======
-# Seasonal Agriculture Performance Analysis
-
-## Project Overview
-
-This project analyzes agricultural data across different seasons
-to identify patterns, trends and variations in agricultural
-performance.
-
-## Objectives
-
-- Analyze seasonal agricultural performance
-- Compare yield and production
-- Analyze environmental conditions
-- Study resource usage
-- Examine economic performance
-- Analyze water efficiency
-- Study disease and pest risk
-- Identify crop-wise and state-wise patterns
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SciPy
-- Jupyter Notebook
-
-## Dataset
-
-The dataset contains 4000 agricultural farm records and 28 variables
-covering farm characteristics, environmental conditions, resource
-usage, production, economic performance and risk factors.
-
-## Methodology
-
-1. Data Loading
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Seasonal Analysis
-5. Environmental Analysis
-6. Resource Analysis
-7. Economic Analysis
-8. Crop and State Analysis
-9. Correlation Analysis
-10. Statistical Analysis
-11. Findings and Recommendations
-
-## Project Structure
-
-data/
-notebooks/
-visualizations/
-README.md
-requirements.txt
-
-## How to Run
-
-Install the required libraries:
-
-pip install -r requirements.txt
-
-Open the Jupyter Notebook:
-
-notebooks/seasonal_agriculture_analysis.ipynb
->>>>>>> Stashed changes
