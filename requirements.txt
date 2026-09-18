@@ -6,3 +6,4 @@ scipy
 openpyxl
 jupyter
 notebook
+streamlit
